@@ -65,3 +65,9 @@ app.listen(process.env.PORT || 3030, ip.address(), function() {
     console.log('Also make sure the league API key is up to date');
   }
 });
+
+// heroku create
+// git push heroku master
+// heroku ps:scale web=1
+// heroku open
+// heroku logs --tail
